@@ -54,7 +54,7 @@
 
 * ![Screenshot 2024-03-02 115543](https://github.com/Pragna235/SQLite-Database-in-Android/assets/109524200/93af9203-a3c7-46d1-b833-7fdca0781e62)
 
-
+### Reference - https://docs.google.com/presentation/d/1fnF5yram49dtxPmyLLKM9-0n8FOK1UflJdoWLxDNb98/edit#slide=id.p
 
 
 
