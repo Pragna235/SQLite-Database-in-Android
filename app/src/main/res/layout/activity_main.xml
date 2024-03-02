@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/tv_title"
+        android:text="SQLite Database App"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:id="@+id/et_roll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_below="@id/tv_title"
+        android:text="Roll No."></EditText>
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_below="@id/et_roll"
+        android:text="Name"></EditText>
+    <EditText
+        android:id="@+id/et_avg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_below="@id/et_name"
+        android:text="Average"></EditText>
+    <EditText
+        android:id="@+id/et_grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_below="@id/et_avg"
+        android:text="Grade"></EditText>
+
+    <Button
+        android:id="@+id/btn_insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_grade"
+        android:onClick="insertStudent"
+        android:text="INSERT NEW STUDENT"
+        android:textSize="24sp"></Button>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_insert"
+        android:onClick="updateStudent"
+        android:text="UPDATE EXISTING STUDENT"
+        android:textSize="24sp"></Button>
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_update"
+        android:onClick="deleteStudent"
+        android:text="DELETE EXISTING STUDENT"
+        android:textSize="24sp"></Button>
+
+    <Button
+        android:id="@+id/btn_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_delete"
+        android:onClick="getStudent"
+        android:text="SELECT A STUDENT"
+        android:textSize="24sp"></Button>
+
+</RelativeLayout>
